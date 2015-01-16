@@ -1,2 +1,2 @@
 # paintr
-Canvas drawing program
+gh-pages version Canvas drawing program
