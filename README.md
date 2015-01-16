@@ -1,2 +1,2 @@
 # paintr
-Canvas drawing program
+A web canvas drawing program
