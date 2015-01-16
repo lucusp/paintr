@@ -1,0 +1,70 @@
+<!-- horrendous -->
+
+<!doctype html>
+<html manifest="manifest.appcache">
+<head>
+
+<title>LS PAINT</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!-- shortcut & apple-app icons -->
+<link rel="apple-touch-icon" href="gg-icon.png" />
+<link rel="apple-touch-startup-image" href="splashtop-landscape.png" />
+<link rel="apple-touch-startup-image" href="splashtop-portrait.png" />
+
+</head>
+
+<body>
+
+<div class="container" id="canvasWrapper" style="position: absolute; left: 0px; top:0px;">
+
+<!--
+<div id="menu-bar" style="margin:0; float:left; display:block; width:100%;height:8%;background-color:#000;"><a id="options" style="color:#fff;text-decoration:none;">Options</a></div>
+-->
+
+	<img id="landingIMG" src="LSPaint.png" style="position: absolute; display: 'none';" />
+
+		<canvas id="SketchPad" style="border: 0px solid; float: left; z-index: 1; position: absolute;" width="1013" height="92%">Doesn't work!!</canvas>
+
+		<canvas id="menu" style="display: none; border: 0px solid; float: left; z-index: 2; position: absolute;" width="120" height="320">Doesn't work!!</canvas>
+
+
+
+<!--end of container-->
+
+</div>
+	<img id="eraserIMG" src="Eraser-icon.png" style="display: none;" />
+	<img id="newPage" src="new-page-icon.png" style="display: none;" />
+
+<!--
+	<script>
+
+		var userAgent = navigator.userAgent;
+ 			var isIOS = ( userAgent.match(/(iPad|iPhone|iPod)/g) && userAgent.match(/(OS 8_1_)/g) || userAgent.match(/(OS 8_0_)/g) ? true : false );
+
+			if(isIOS){
+
+				//alert(isIOS);
+
+				var topNav = document.getElementById('SketchPad');
+
+				topNav.style.cssText = "padding-top: 25px;";
+
+			}
+
+
+
+	</script>
+-->
+
+
+	<script src="https://dl.dropboxusercontent.com/s/9hbvsvcrf6y2gl2/script.js"></script>
+
+
+
+
+
+</body>
+</html>
